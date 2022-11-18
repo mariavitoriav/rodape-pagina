@@ -1,0 +1,88 @@
+body {
+    /* display: flex; */
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E3161;
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.footer-content {
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    gap: 14%;
+    justify-content: space-between;
+}
+
+.about {
+    gap: 1%;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #5AC1D8;
+    border: #5AC1D8;
+    padding: 10px;
+gap: 10px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 24px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+}
+
+.footer-content p {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #FFFFFF;
+    gap: 1%;
+}
+
+footer h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: 1%;
+}
